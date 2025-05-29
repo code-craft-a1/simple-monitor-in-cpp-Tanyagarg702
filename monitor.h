@@ -12,6 +12,6 @@ bool isPulseRateOk(float pulseRate);
 bool isSpO2Ok(float spo2);
 VitalStatus evaluateVitals(float temperature, float pulseRate, float spo2);
 
-// I/O functions - impure
+// I/O functions
 void blinkAlert();
 void showAlert(VitalStatus status);
